@@ -1,0 +1,116 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	
+	
+	
+}
+
+
+#wrapper{
+		width: 800px;
+		margin: auto;
+}
+
+	.humidity_graph {
+		height: 100px;
+		margin: 20px 0 20px 0;
+		position: relative;
+		white-space: nowrap;
+		font-size: 0;
+		background: #EEE;		
+		/*border: 1px dashed grey;*/
+	}
+
+	.temperature_graph {
+		height: 50px;
+		margin: 20px 0 20px 0;
+		position: relative;
+		white-space: nowrap;
+		font-size: 0;
+		background: #EEE;
+		/*border: 1px dashed grey;*/
+	}
+		
+	.bar {
+		display: inline-block;
+		margin: 0 0 0 0px;
+		vertical-align: bottom;
+		position: relative;
+		width: 1px;
+		background: #2be;
+	}
+	.bar:first-child {
+		height: 100%;
+		margin: 0;
+		width: 0;
+	}
+	
+	.bar2 {
+		display: inline-block;
+		margin: 0 0 0 0px;
+		vertical-align: bottom;
+		position: relative;
+		width: 1px;
+		background: #fc4;
+	}
+	.bar2:first-child {
+		height: 100%;
+		margin: 0;
+		width: 0;
+	}
+	
+	p{
+		margin: 0 0 10px 0;
+		font-size: 12px;
+	}
+	
+.dataWrapper{
+	margin: auto;
+	width: 400px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
+
+.humidity{
+	float: left;
+	width: 200px;
+	font-size: 50px;
+	color: #fc4;
+}
+	
+.temperature{
+	float: right;
+	width: 200px;
+	font-size: 50px;
+	color: #2be;
+}	
+
+.humidityLabel{
+	float: left;
+	width: 200px;
+	font-size: 14px;
+}
+	
+.temperatureLabel{
+	float: right;
+	width: 200px;
+	font-size: 14px;
+}	
+
+h3{
+	border-bottom: 1px dashed grey;	
+}
+
+.controlls{
+	/*border: 1px dashed grey;*/
+	text-align: center;
+		background: #EEE;	
+}
+
+.controlls a{
+	
+	margin: 0 10px 0 10px;
+	text-decoration: none;
+	color: black;
+}
